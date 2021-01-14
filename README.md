@@ -1,3 +1,5 @@
 # aplikační repozitář
-## uložené zdrojové kódy aplikace 
-## CI pipeline (Action) která provede build containeru a push do infra repository
+## - uložené zdrojové kódy aplikace 
+## - CI pipeline (Action) on push
+## - výstup pipeline je container image  
+## - výstup pipeline záznam do infrastrukturního repozitáře

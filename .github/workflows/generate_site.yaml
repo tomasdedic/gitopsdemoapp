@@ -91,12 +91,12 @@ jobs:
 
       - name: save image tag to YAML
         run: |
-          echo "image: ${{steps.prep.outputs.tags}}" >argo_repo/poet_app_deployment/image_tags/image_tags.yaml
+          echo "image: ${{steps.prep.outputs.tags}}" >CDinteg/image_tags.yaml
 
       - name: Merge Deployment file in ARGO repo with image_tags.yaml
         uses: tomasdedic/yq-action@1.2
         with:
-          file: argo_repo/poet_app_deployment/yq_inline.sh
+          file: CDinteg/yq_inline.sh
 
       - name: commit changes to ARGO repo
         run: |

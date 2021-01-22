@@ -1,6 +1,6 @@
 baseurl = "/"
 refLinksErrorLevel ="WARNING"
-title = "Básně mé milované"
+title = "Smart Poets Delivery"
 languageCode = "en-us"
 paginate = "20" # Number of posts per page
 theme = "mainroad"
@@ -9,14 +9,14 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 summaryLength = 20 # nastaveni delky summary v indexu na 20 slov
 
 [Author] # Used in authorbox
-  name = "Tomáš Dědič"
-  bio = "VeryravenRetroroyalRoger"
+  name = "TD"
+  bio = "VRR"
   avatar = "img/avatar.png"
 
 [Params]
   purpose = "GitopsDemo"
   subtitle = ""
-  description = "" # Site description. Used in meta description
+  description = "GitopsDemo smart poets delivery CI/CD" # Site description. Used in meta description
   #copyright = "Tomas Dedic" # copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   twitter_cards = false # Enable Twitter Cards if true
